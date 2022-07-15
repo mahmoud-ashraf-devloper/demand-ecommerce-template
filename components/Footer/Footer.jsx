@@ -6,6 +6,7 @@ const Footer = () => {
             <div className='col-span-2 flex flex-col items-center my-4 md:items-start md:my-0'>
                 <h1 className='text-5xl font-bold uppercase'>De<span className='italic text-cyan-500'>mand</span></h1>
                 <p className='my-10 text-center md:text-start'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus iure neque minus similique expedita quos nostrum animi, voluptatum quisquam perferendis!</p>
+                
                 <div className='flex space-x-4'>
                     <BsFacebook className='w-6 h-6  hover:text-cyan-800' />
                     <BsInstagram className='w-6 h-6  hover:text-cyan-800' />

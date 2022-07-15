@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Banner from '../components/Banner';
 import Features from '../components/Features'
 import HomeSection from '../components/Home/HomeSection'
+import RecommendedForYou from '../components/RecommendedForYou';
 import Categories from './../components/Categories';
 import NewArrival from './../components/NewArrival';
 
@@ -21,6 +22,7 @@ export default function Home() {
           <Categories />
           <NewArrival />
           <Banner />
+          <RecommendedForYou />
       </main>
     </div>
   )
