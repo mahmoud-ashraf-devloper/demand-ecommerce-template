@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Banner from '../components/Banner';
 import Features from '../components/Features'
 import HomeSection from '../components/Home/HomeSection'
 import Categories from './../components/Categories';
@@ -19,6 +20,7 @@ export default function Home() {
           <Features />
           <Categories />
           <NewArrival />
+          <Banner />
       </main>
     </div>
   )
