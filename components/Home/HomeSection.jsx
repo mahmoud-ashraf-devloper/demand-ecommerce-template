@@ -12,7 +12,7 @@ const HomeSection = () => {
             <div className='absolute inset-0 text-white'>
                 <div className='max-w-[1240px] mx-auto md:h-3/4 h-full flex items-center'>
                     <div className='px-4'>
-                        <h1 className='md:text-8xl text-3xl font-bold md:font-semibold'>
+                        <h1 className='lg:text-8xl md:text-6xl text-3xl font-bold md:font-semibold'>
                             <Typewriter
                                 options={{
                                     strings: ['Best Collection For Home Decoration <span style="color: #06b6d4"> With Demand</span>'],
@@ -21,8 +21,8 @@ const HomeSection = () => {
                                 }}
                             />
                         </h1>
-                        <p className=' md:py-10 md:my-4 my-2 md:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores ipsum, eaque dolores assumenda accusantium.</p>
-                        <button className='md:w-52 md:py-4 text-xl hover:bg-cyan-400 py-1'>Shop Now</button>
+                        <p className=' lg:py-10 md:py-6 my-2 md:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores ipsum, eaque dolores assumenda accusantium.</p>
+                        <button className='lg:w-52 lg:py-4 md:py-2 text-xl hover:bg-cyan-400 py-1'>Shop Now</button>
                     </div>
                 </div>
 

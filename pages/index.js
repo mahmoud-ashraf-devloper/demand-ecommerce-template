@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Features from '../components/Features'
 import HomeSection from '../components/Home/HomeSection'
 import Categories from './../components/Categories';
+import NewArrival from './../components/NewArrival';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <HomeSection />
           <Features />
           <Categories />
+          <NewArrival />
       </main>
     </div>
   )
