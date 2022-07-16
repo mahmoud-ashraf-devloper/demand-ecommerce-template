@@ -77,7 +77,7 @@ const Shop2 = () => {
             <div className="grid md:grid-cols-4 my-9 pb-10">
                 <div className="hidden col-span-1 mr-2 mb-6 md:flex flex-col ">
                     <div className='shadow-md rounded-b-md px-2 py-3'>
-                        <h1 className='font-bold uppercase text-xl'>Categories</h1>
+                        <h1 className='font-bold uppercase text-xl mb-4'>Categories</h1>
                         <div className='flex justify-between font-bold text-gray-500 px-3 py-1'>
                             <div className='flex space-x-2'>
                                 <input className='text-white border-0 accent-cyan-500 w-5 rounded-xl' type="checkbox" name="" id="" />
@@ -109,7 +109,7 @@ const Shop2 = () => {
                     </div>
                    
                     <div className='shadow-md px-2 py-3 rounded-b-md'>
-                        <h1 className='font-bold uppercase text-xl'>Brands</h1>
+                        <h1 className='font-bold uppercase text-xl mb-4'>Brands</h1>
                         <div className='flex justify-between font-bold text-gray-500 px-3 py-1'>
                             <div className='flex space-x-2'>
                                 <input className='text-white border-0 accent-cyan-500 w-5 rounded-xl' type="checkbox" name="" id="" />
@@ -141,7 +141,7 @@ const Shop2 = () => {
                     </div>
 
                     <div className='shadow-md rounded-b-md px-2 py-3'>
-                        <h1 className='font-bold uppercase text-xl'>Sizes</h1>
+                        <h1 className='font-bold uppercase text-xl mb-4'>Sizes</h1>
                         
                         <div className="flex justify-evenly mx-2">
                             <div className='flex items-center justify-center w-10 h-9 border border-gray-300 rounded-md my-3 capitalize text-lg'>Lg</div>
@@ -151,7 +151,7 @@ const Shop2 = () => {
                     </div>
 
                     <div className='shadow-md rounded-b-md px-2 py-3'>
-                        <h1 className='font-bold uppercase text-xl'>colors</h1>
+                        <h1 className='font-bold uppercase text-xl mb-4'>colors</h1>
                         <div className="flex justify-evenly mx-2">
                             <div className='w-6 h-6 bg-black rounded-md my-3'></div>
                             <div className='outline outline-cyan-500 outline-offset-2 w-6 h-6 bg-red-500 rounded-md my-3'></div>

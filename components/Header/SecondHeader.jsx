@@ -13,6 +13,9 @@ const SecondHeader = () => {
                         <Link href='/' alt='/'>Shop</Link>
                     </li>
                     <li className='md:px-5 px-2 text-sm md:text-lg font-bold text-white flex h-12 items-center hover:bg-cyan-800'>
+                        <Link href='/shop-2' alt='/'>Shop 2</Link>
+                    </li>
+                    <li className='md:px-5 px-2 text-sm md:text-lg font-bold text-white flex h-12 items-center hover:bg-cyan-800'>
                         <Link href='/' alt='/'>About</Link>
                     </li>
                     <li className='md:px-5 px-2 text-sm md:text-lg font-bold text-white flex h-12 items-center hover:bg-cyan-800'>
