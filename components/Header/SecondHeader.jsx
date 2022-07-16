@@ -23,9 +23,9 @@ const SecondHeader = () => {
                     </li>
                 </ul>
                 <div className='mx-3'>
-                    <button className='md:text-lg text-sm bg-inherit text-white p-0 hover:bg-inherit  '>Login</button>
+                    <button className='md:text-lg text-sm bg-inherit text-white p-0 hover:bg-inherit  '><Link href='/login' alt='/'>Login</Link></button>
                     <span className='md:text-lg text-sm text-white mx-1 '>/</span>
-                    <button className='md:text-lg text-sm bg-inherit text-white p-0 hover:bg-inherit  '>Login</button>
+                    <button className='md:text-lg text-sm bg-inherit text-white p-0 hover:bg-inherit  '><Link href='/register' alt='/'>Register</Link></button>
                 </div>
             </div>
         </header>

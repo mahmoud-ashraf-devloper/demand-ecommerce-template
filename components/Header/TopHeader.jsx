@@ -10,7 +10,7 @@ const TopHeader = () => {
         <div className='max-w-[1240px] mx-auto flex justify-between h-20 items-center'>
             <div className='md:text-5xl text-3xl font-bold uppercase'>De<span className='italic text-cyan-500'>mand</span></div>
             <div className='hidden md:block'>
-                <input placeholder=' Search' className='  ' type="text" />
+                <input placeholder=' Search' className='focus:outline-none rounded-l-md px-6 py-[10px] border-y-2 border-l-2 border-gray-200' type="text" />
                 <button className='rounded-l-none'>Search</button>
             </div>
             <div className=' mx-3 flex space-x-2 cursor-pointer'>

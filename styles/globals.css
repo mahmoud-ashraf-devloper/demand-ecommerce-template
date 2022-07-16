@@ -6,9 +6,7 @@
   body {
     @apply bg-[#ffffff] text-slate-700 
   }
-  input{
-    @apply focus:outline-none rounded-l-md px-6 py-[10px] border-y-2 border-l-2 border-cyan-500
-  }
+
   button{
     @apply px-6 py-3 bg-cyan-500 text-white rounded-md font-bold text-base hover:bg-cyan-700
   }
