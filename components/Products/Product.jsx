@@ -8,7 +8,11 @@ import { AiFillStar } from 'react-icons/ai';
 import { GiBeachBag } from 'react-icons/gi';
 import { AiOutlineHeart } from 'react-icons/ai';
 import {BiSearch} from 'react-icons/bi';
+import { useDispatch } from 'react-redux';
+import { addItem } from '../../store/slices/cartSlice';
 const Product = ({ product }) => {
+
+    const dispatch = useDispatch();
     return (
         <div className='w-90 group'>
 
@@ -32,7 +36,7 @@ const Product = ({ product }) => {
                 <AiFillStar className='text-yellow-500' />
                 <AiFillStar className='text-gray-500' />
             </div>
-            <button className='w-full py-2 flex items-center justify-center'>Add To Card <GiBeachBag className='ml-3 w-6 h-6' /></button>
+            <button onClick={()=> dispatch(addItem({...product, quantity: 1}))} className='w-full py-2 flex items-center justify-center'>Add To Card <GiBeachBag className='ml-3 w-6 h-6' /></button>
         </div>
     );
 }

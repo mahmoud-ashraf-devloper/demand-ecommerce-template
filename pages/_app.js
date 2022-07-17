@@ -1,11 +1,15 @@
 import MainLayout from '../components/layouts/MainLayout'
+import { Provider } from 'react-redux'
+import store from '../store/store'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <MainLayout>
-      <Component {...pageProps} />
-    </MainLayout>
+    <Provider store={store}>
+      <MainLayout>
+        <Component {...pageProps} />
+      </MainLayout>
+    </Provider>
   )
 }
 

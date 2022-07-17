@@ -21,7 +21,7 @@ const HomeSection = () => {
                                 }}
                             />
                         </h1>
-                        <p className=' lg:py-10 md:py-6 my-2 md:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores ipsum, eaque dolores assumenda accusantium.</p>
+                        <p className=' lg:py-10 md:py-6 my-2 md:text-xl text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores ipsum, eaque dolores assumenda accusantium.</p>
                         <button className='lg:w-52 lg:py-4 md:py-2 text-xl hover:bg-cyan-400 py-1'>Shop Now</button>
                     </div>
                 </div>

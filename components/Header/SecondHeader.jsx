@@ -3,7 +3,8 @@ import React from 'react';
 
 const SecondHeader = () => {
     return (
-        <header className='bg-cyan-500 min-w-full'>
+        <header className='bg-cyan-500 min-w-full '>
+            <div className='h-20'></div>
             <div className='max-w-[1240px] mx-auto flex justify-between h-12 items-center'>
                 <ul className='flex'>
                     <li className='md:px-5 px-2 text-sm md:text-lg font-bold text-white flex h-12 items-center hover:bg-cyan-800'>
