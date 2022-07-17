@@ -14,7 +14,7 @@ const NewArrival = () => {
             name: 'Kitchen',
             category:'category',
             image: KitchenImage,
-            priceAfterDiscount: '$100.00',
+            priceAfterDiscount: 100.00,
             rating: 5,
             originalPrice: 500
         },
@@ -23,7 +23,7 @@ const NewArrival = () => {
             name: 'Chair',
             category:'category',
             image: ChairImage,
-            priceAfterDiscount: '$200.00',
+            priceAfterDiscount: 200.00,
             rating: 5,
             originalPrice: 500
         },
@@ -32,7 +32,7 @@ const NewArrival = () => {
             name: 'Sofa',
             category:'category',
             image: SofaImage,
-            priceAfterDiscount: '$200.00',
+            priceAfterDiscount: 200.00,
             rating: 5,
             originalPrice: 500
         },
@@ -41,7 +41,7 @@ const NewArrival = () => {
             name: 'Table',
             category:'category',
             image: TableImage,
-            priceAfterDiscount: '$300.00',
+            priceAfterDiscount: 300.00,
             rating: 5,
             originalPrice: 500
         },

@@ -12,6 +12,7 @@ const RecommendedForYou = () => {
             name: 'Kitchen',
             image: KitchenImage,
             priceAfterDiscount: 100.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },
@@ -20,6 +21,7 @@ const RecommendedForYou = () => {
             name: 'Chair',
             image: ChairImage,
             priceAfterDiscount: 200.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },
@@ -28,6 +30,7 @@ const RecommendedForYou = () => {
             name: 'Sofa',
             image: SofaImage,
             priceAfterDiscount: 200.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },
@@ -36,6 +39,7 @@ const RecommendedForYou = () => {
             name: 'Table',
             image: TableImage,
             priceAfterDiscount: 300.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },
@@ -44,6 +48,7 @@ const RecommendedForYou = () => {
             name: 'Sofa',
             image: SofaImage,
             priceAfterDiscount: 200.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },
@@ -52,6 +57,7 @@ const RecommendedForYou = () => {
             name: 'Chair',
             image: ChairImage,
             priceAfterDiscount: 200.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },
@@ -60,6 +66,7 @@ const RecommendedForYou = () => {
             name: 'Chair',
             image: ChairImage,
             priceAfterDiscount: 200.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },
@@ -68,6 +75,7 @@ const RecommendedForYou = () => {
             name: 'Kitchen',
             image: KitchenImage,
             priceAfterDiscount: 100.00,
+            category: 'category',
             rating: 5,
             originalPrice: 500
         },

@@ -1,8 +1,5 @@
 import React from 'react';
-import KitchenImage from '../../public/new-arrival-products/kitchen.webp'
-import ChairImage from '../../public/new-arrival-products/chair.webp'
-import SofaImage from '../../public/new-arrival-products/sofa.webp'
-import TableImage from '../../public/new-arrival-products/dining-table.webp'
+
 import Image from 'next/image';
 import { AiFillStar } from 'react-icons/ai';
 import { GiBeachBag } from 'react-icons/gi';
@@ -26,8 +23,8 @@ const Product = ({ product }) => {
             </div>
             <h1 className='text-lg font-bold'>{product.name}</h1>
             <div className='flex space-x-4 my-2 text-cyan-500 font-bold'>
-                <span className=''>{product.priceAfterDiscount}</span>
-                <span className='text-gray-400 line-through'>{product.originalPrice}</span>
+                <span className=''>${product.priceAfterDiscount}</span>
+                <span className='text-gray-400 line-through'>${product.originalPrice}</span>
             </div>
             <div className="flex mb-4">
                 <AiFillStar className='text-yellow-500' />

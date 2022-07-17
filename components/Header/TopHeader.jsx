@@ -13,8 +13,8 @@ const TopHeader = () => {
     const dispatch = useDispatch();
     const totalQuantity = useSelector(state => state.cart.items.length);
     return (
-        <div className='w-full fixed z-30 bg-white'>
-            <div className='max-w-[1240px] mx-auto flex justify-between  h-20 items-center'>
+        <div className='w-full fixed z-30 bg-white shadow-md'>
+            <div className='max-w-[1240px] mx-auto flex justify-between  h-20 items-center '>
                 <div className='md:text-5xl text-3xl font-bold uppercase'>De<span className='italic text-cyan-500'>mand</span></div>
                 <div className='hidden md:block'>
                     <input placeholder=' Search' className='focus:outline-none rounded-l-md px-6 py-[10px] border-y-2 border-l-2 border-gray-200' type="text" />

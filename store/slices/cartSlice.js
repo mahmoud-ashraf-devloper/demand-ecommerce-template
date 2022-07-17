@@ -26,7 +26,7 @@ export const cartSlice = createSlice({
                     if (item.id === action.payload.id) {
                         item.quantity++;
                         state.totalItems++;
-                        state.totalPrice += action.payload.priceAfterDiscount;
+                        state.totalPrice += item.priceAfterDiscount;
                         itemExists = true;
                     }
                 })
@@ -41,7 +41,7 @@ export const cartSlice = createSlice({
             state.items.forEach(item => {
                 if (item.id === action.payload.id) {
                     state.totalItems--;
-                    state.totalPrice -= action.payload.priceAfterDiscount;
+                    state.totalPrice -= item.priceAfterDiscount*item.quantity;
                     state.items = state.items.filter(item => item.id !== action.payload.id);
                 }
             }

@@ -11,65 +11,65 @@ const Shop2 = () => {
             id: 1,
             name: 'Kitchen',
             image: KitchenImage,
-            priceAfterDiscount: '$100.00',
+            priceAfterDiscount: 100.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
         {
             id: 2,
             name: 'Chair',
             image: ChairImage,
-            priceAfterDiscount: '$200.00',
+            priceAfterDiscount: 200.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
         {
             id: 3,
             name: 'Sofa',
             image: SofaImage,
-            priceAfterDiscount: '$200.00',
+            priceAfterDiscount: 200.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
         {
             id: 4,
             name: 'Table',
             image: TableImage,
-            priceAfterDiscount: '$300.00',
+            priceAfterDiscount: 300.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
         {
             id: 5,
             name: 'Sofa',
             image: SofaImage,
-            priceAfterDiscount: '$200.00',
+            priceAfterDiscount: 200.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
         {
             id: 6,
             name: 'Chair',
             image: ChairImage,
-            priceAfterDiscount: '$200.00',
+            priceAfterDiscount: 200.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
         {
             id: 7,
             name: 'Chair',
             image: ChairImage,
-            priceAfterDiscount: '$200.00',
+            priceAfterDiscount: 200.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
         {
             id: 8,
             name: 'Kitchen',
             image: KitchenImage,
-            priceAfterDiscount: '$100.00',
+            priceAfterDiscount: 100.00,
             rating: 5,
-            originalPrice: '$500'
+            originalPrice: 500
         },
     ]
     return (
