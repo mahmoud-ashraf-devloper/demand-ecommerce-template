@@ -33,7 +33,7 @@ const Product = ({ product }) => {
                 <AiFillStar className='text-yellow-500' />
                 <AiFillStar className='text-gray-500' />
             </div>
-            <button onClick={()=> dispatch(addItem({...product, quantity: 1}))} className='w-full py-2 flex items-center justify-center'>Add To Card <GiBeachBag className='ml-3 w-6 h-6' /></button>
+            <button onClick={()=> dispatch(addItem({...product, quantity: 1}))} className='w-full bg-cyan-500 text-white rounded-md hover:bg-cyan-400 py-2 flex items-center justify-center'>Add To Card <GiBeachBag className='ml-3 w-6 h-6' /></button>
         </div>
     );
 }

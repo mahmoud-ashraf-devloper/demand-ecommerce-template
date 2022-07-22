@@ -18,7 +18,7 @@ const TopHeader = () => {
                 <div className='md:text-5xl text-3xl font-bold uppercase'>De<span className='italic text-cyan-500'>mand</span></div>
                 <div className='hidden md:block'>
                     <input placeholder=' Search' className='focus:outline-none rounded-l-md px-6 py-[10px] border-y-2 border-l-2 border-gray-200' type="text" />
-                    <button className='rounded-l-none'>Search</button>
+                    <button className='hover:bg-cyan-700 bg-cyan-500 text-white py-3 px-3  font-bold rounded-r-md'>Search</button>
                 </div>
                 <div className=' mx-3 flex space-x-2 cursor-pointer'>
                     <div className='relative'>

@@ -3,7 +3,7 @@ import Link  from 'next/link';
 
 const Register = () => {
     return (
-        <div className='max-w-[1240px] mx-auto flex justify-center '>
+        <div className='max-w-[1240px] mx-auto min-h-screen flex  justify-center '>
             <div className="max-w-[550px] flex flex-col w-full">
                 <h1 className='text-4xl font-bold py-4 uppercase'>Register</h1>
                 <div className='flex flex-col my-2'>
