@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Login = () => {
     return (
-        <div className='max-w-[1240px] mx-auto flex justify-center '>
+        <div className='max-w-[1240px] md:mx-auto mx-3 flex justify-center '>
             <div className="max-w-[550px] flex flex-col w-full">
                 <h1 className='text-4xl font-bold py-4 uppercase'>Login</h1>
                 <div className='flex flex-col my-2'>
@@ -25,12 +25,12 @@ const Login = () => {
 
                 <div className='flex items-center my-3 justify-center space-x-3'>
                     <span className='h-[2px] bg-gray-300 w-1/3'></span>
-                    <span className='text-lg uppercase'>or login with</span>
+                    <span className='text-lg uppercase whitespace-nowrap'>or login with</span>
                     <span className='h-[2px] bg-gray-300 w-1/3'></span>
                 </div>
                 <div className='flex space-x-2 mb-3'>
-                    <button className='w-1/2 bg-blue-900   uppercase hover:bg-blue-800'>Facebook</button>
-                    <button className='w-1/2 bg-yellow-700 uppercase hover:bg-yellow-600'>Google</button>
+                    <button className='w-1/2 text-white bg-blue-900   uppercase hover:bg-blue-800'>Facebook</button>
+                    <button className='w-1/2 text-white bg-yellow-700 uppercase hover:bg-yellow-600'>Google</button>
                 </div>
                 <div className="flex justify-center mb-4 text-lg cursor-pointer">
                     <Link href='/register'><p>Dont have an account yet? <span className='text-red-500'>register now?</span></p></Link>
