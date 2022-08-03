@@ -9,7 +9,7 @@ import Image from 'next/image';
 const Categories = () => {
     return (
         <div className='max-w-[1240px] mx-auto'>
-            <h1 className='text-4xl font-bold'>Categories</h1>
+            <h1 className='text-4xl pl-2 font-bold'>Categories</h1>
             <div className='grid md:grid-cols-3 gap-9 py-8 px-3'>
                 <div className='relative group shadow-lg  rounded-xl overflow-hidden'>
                     <Image className='bg-contain ' src={SofaImage} alt='/' />

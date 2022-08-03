@@ -82,7 +82,7 @@ const RecommendedForYou = () => {
     ]
     return (
         <div className='max-w-[1240px] mx-auto py-8'>
-            <h1 className='md:text-4xl text-2xl font-bold'>Recommended For You</h1>
+            <h1 className='md:text-4xl text-2xl pl-2 font-bold'>Recommended For You</h1>
             <div className='grid lg:grid-cols-4 md:grid-cols-3 gap-6 py-8 px-3'>
                 {products.map(product =>
                     <Product key={product.id} product={product} />

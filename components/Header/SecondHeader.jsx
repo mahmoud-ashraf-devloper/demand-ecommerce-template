@@ -16,12 +16,7 @@ const SecondHeader = () => {
                     <li className='md:px-5 px-1 whitespace-nowrap text-sm md:text-lg  text-white flex h-12 items-center hover:bg-cyan-800'>
                         <Link href='/shop-2' alt='/'>Shop 2</Link>
                     </li>
-                    <li className='md:px-5 px-1 whitespace-nowrap text-sm md:text-lg  text-white flex h-12 items-center hover:bg-cyan-800'>
-                        <Link href='/' alt='/'>About</Link>
-                    </li>
-                    <li className='md:px-5 px-1 whitespace-nowrap text-sm md:text-lg  text-white flex h-12 items-center hover:bg-cyan-800'>
-                        <Link href='/' alt='/'>Contact Us</Link>
-                    </li>
+
                 </ul>
                 <div className='mx-3 whitespace-nowrap'>
                     <button className='md:text-lg text-sm bg-inherit text-white p-0 hover:bg-inherit  '><Link href='/login' alt='/'>Login</Link></button>
